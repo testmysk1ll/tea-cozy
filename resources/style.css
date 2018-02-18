@@ -1,0 +1,41 @@
+/*GENERAL*/
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*HEADER*/
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+header nav {
+  padding-right: 15px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+
+}
