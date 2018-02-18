@@ -7,6 +7,10 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
 }
 
 /*HEADER*/
@@ -15,16 +19,16 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  z-index: 1;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 header img {
   padding-left: 10px;
   height: 50px;
+
 }
 header nav {
   padding-right: 15px;
@@ -38,4 +42,51 @@ header a {
   font-size: 22px;
   color: seashell;
 
+}
+
+/*MISSION*/
+
+.img-mission-background {
+  height: 700px;
+  width: 1200px;
+  background-image: url(./img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+}
+
+
+.OurMission {
+  width: 1200px;
+  background-color: black;
+  position: absolute;
+  height: 100px;
+
+}
+.OurMission h2, h4{
+  margin: 10px;
+}
+
+/*PROPOSITION*/
+.Question {
+  margin: 10px;
+}
+
+.TeaOfTheMonth {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Menu {
+  margin-right: 10px;
+  margin-bottom: 60px;
+  width: 300px;
+  height: 200px;
+}
+.Menu h4 {
+  margin-top: 10px;
+}
+.Menu img {
+  width: 300px;
+  height: 200px;
 }
